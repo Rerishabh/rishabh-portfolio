@@ -87,3 +87,26 @@ body {
     transform: none;
   }
 }
+
+@keyframes traceNodeLoop {
+  from {
+    offset-distance: 0%;
+  }
+
+  to {
+    offset-distance: 100%;
+  }
+}
+
+.trace-node {
+  offset-path: path("M 24 124 C 72 124 77 42 124 42 C 157 42 145 116 192 116 C 232 116 239 64 296 42");
+  offset-rotate: 0deg;
+  animation: traceNodeLoop 6s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trace-node {
+    animation: none;
+    offset-distance: 100%;
+  }
+}
