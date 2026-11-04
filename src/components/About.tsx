@@ -38,19 +38,20 @@ export function About() {
       ref={sectionRef}
       id="about"
       aria-labelledby="about-heading"
-      className="mx-auto max-w-6xl px-6 py-12 sm:px-8 md:py-16 lg:px-12"
+      className="w-full bg-surface py-12 md:py-16"
     >
-      {/* ── Full-width section heading ── */}
-      <div className={`editorial-fade-up ${hasEntered ? 'is-visible' : ''} mb-10 border-b-2 border-ink pb-6`}>
-        <h2
-          id="about-heading"
-          className="font-serif text-3xl font-normal tracking-tight text-ink md:text-5xl"
-        >
-          About
-        </h2>
-      </div>
+      <div className="mx-auto max-w-6xl px-6 sm:px-8 lg:px-12">
+        {/* ── Full-width section heading ── */}
+        <div className={`editorial-fade-up ${hasEntered ? 'is-visible' : ''} mb-10 border-b-2 border-ink pb-6`}>
+          <h2
+            id="about-heading"
+            className="font-serif text-3xl font-normal tracking-tight text-ink md:text-5xl"
+          >
+            About
+          </h2>
+        </div>
 
-      <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-14">
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-14">
         {/* ── Left: bio copy ── */}
         <div className={`editorial-fade-up editorial-fade-up-delay-100 ${hasEntered ? 'is-visible' : ''} lg:col-span-7`}>
           <h3
@@ -136,6 +137,7 @@ export function About() {
           />
         </div>
       </div>
-    </section>
-  )
+    </div>
+  </section>
+)
 }
