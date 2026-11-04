@@ -1,5 +1,3 @@
-import { GitFork } from 'lucide-react'
-
 export function Navbar() {
   return (
     <header className="sticky top-0 z-10 border-b-2 border-ink bg-canvas/95 backdrop-blur">
@@ -9,43 +7,50 @@ export function Navbar() {
       >
         <a
           href="#top"
-          className="font-display text-xl font-bold tracking-tight transition-all duration-150 hover:-translate-y-0.5 hover:text-accent active:translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          className="font-serif text-2xl font-normal tracking-tight text-ink transition-transform duration-150 hover:-translate-y-0.5 active:translate-y-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-canvas"
         >
           Rishabh.
         </a>
-        <div className="flex items-center gap-4 text-sm text-muted sm:gap-6">
+        <div className="flex items-center gap-3 text-sm sm:gap-6">
           <a
             href="#about"
-            className="rounded-sm transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas"
+            className="rounded-sm py-1 font-mono text-xs font-medium tracking-wide text-ink/75 transition-colors hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-canvas sm:text-sm"
           >
             About
           </a>
           <a
             href="#toolbox"
-            className="rounded-sm transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas"
+            className="rounded-sm py-1 font-mono text-xs font-medium tracking-wide text-ink/75 transition-colors hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-canvas sm:text-sm"
           >
             Toolbox
           </a>
           <a
             href="#projects"
-            className="rounded-sm transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas"
+            className="rounded-sm py-1 font-mono text-xs font-medium tracking-wide text-ink/75 transition-colors hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-canvas sm:text-sm"
           >
             Projects
           </a>
           <a
             href="#archive"
-            className="rounded-sm transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas"
+            className="rounded-sm py-1 font-mono text-xs font-medium tracking-wide text-ink/75 transition-colors hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-canvas sm:text-sm"
           >
             Archive
           </a>
           <a
             href="https://github.com/Rerishabh"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             aria-label="GitHub Profile"
-            className="rounded-sm text-ink transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-canvas"
+            className="inline-flex items-center rounded-sm p-1 text-ink/75 transition-colors hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-canvas"
           >
-            <GitFork size={19} strokeWidth={1.8} aria-hidden="true" />
+            <svg
+              viewBox="0 0 24 24"
+              className="h-4 w-4 shrink-0 fill-current"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
           </a>
         </div>
       </nav>
