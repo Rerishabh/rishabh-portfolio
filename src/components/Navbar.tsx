@@ -30,12 +30,6 @@ export function Navbar() {
           >
             Projects
           </a>
-          <a
-            href="#archive"
-            className="rounded-sm py-1 font-mono text-xs font-medium tracking-wide text-ink/75 transition-colors hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-canvas sm:text-sm"
-          >
-            Archive
-          </a>
         </div>
       </nav>
     </header>

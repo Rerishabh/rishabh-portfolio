@@ -1,5 +1,4 @@
 import { Mail } from 'lucide-react'
-import { Archive } from './components/Archive'
 import { About } from './components/About'
 import { Hero } from './components/Hero'
 import { Navbar } from './components/Navbar'
@@ -10,9 +9,6 @@ import { PUBLIC_PROJECTS } from './data/projects'
 function App() {
   const featuredResearch = PUBLIC_PROJECTS.find(
     (project) => project.id === 'rh-dijkstra-webots',
-  )
-  const coursework = PUBLIC_PROJECTS.filter(
-    (project) => project.category === 'coursework',
   )
   const mainProjects = PUBLIC_PROJECTS.filter(
     (project) =>
@@ -152,7 +148,6 @@ function App() {
             ))}
           </div>
         </section>
-        <Archive projects={coursework} />
       </main>
       <footer className="border-t-2 border-ink bg-ink text-canvas">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-6 px-6 py-8 sm:px-8 lg:px-12">
