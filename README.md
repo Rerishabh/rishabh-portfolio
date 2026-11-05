@@ -8,7 +8,7 @@ The portfolio features an editorial visual style with a tactile, keyboard-inspir
 
 ## 🌐 Live Portfolio
 
-- **Live Website**: [AWS Amplify Deployment URL](https://main.d180szk6i64560.amplifyapp.com/) *(or update with your custom domain once live)*
+- **Live Website**: [https://main.d36fvfy66vo5zh.amplifyapp.com](https://main.d36fvfy66vo5zh.amplifyapp.com/)
 - **GitHub Repository**: [https://github.com/Rerishabh/rishabh-portfolio](https://github.com/Rerishabh/rishabh-portfolio)
 - **Resume**: Available directly via the portfolio header or in [`public/Rishabh_Paira_Resume.pdf`](public/Rishabh_Paira_Resume.pdf)
 
