@@ -1,47 +1,91 @@
-# Systems Field Journal
+# Rishabh Paira | Developer Portfolio
 
-Systems Field Journal is a React, Vite, TypeScript, Tailwind CSS, and
-Lucide React portfolio for the AWS Student Builder Challenge.
+A personal developer portfolio built for the AWS Student Builder Challenge. It showcases my software engineering projects, AI systems evaluation work, robotics research, technical skills, and development journey.
 
-## Public content contract
+The portfolio features an editorial visual style with a tactile, keyboard-inspired interface design.
 
-The public portfolio presents verified project names, categories, descriptions,
-technologies, contributions, repository links, and live-demo links. A link is
-shown only when its URL has been verified.
+---
 
-Internal inventory notes and project tracking metadata are not public content.
-They must not appear in project cards, descriptions, badges, navigation, or this
-README. Missing information is tracked privately until it is verified; visitors
-never see TODO text or placeholder flags.
+## 🌐 Live Portfolio
 
-The public portfolio includes 12 approved projects.
+- **Live Website**: [AWS Amplify Deployment URL](https://main.d180szk6i64560.amplifyapp.com/) *(or update with your custom domain once live)*
+- **GitHub Repository**: [https://github.com/Rerishabh/rishabh-portfolio](https://github.com/Rerishabh/rishabh-portfolio)
+- **Resume**: Available directly via the portfolio header or in [`public/Rishabh_Paira_Resume.pdf`](public/Rishabh_Paira_Resume.pdf)
 
-## Development
+---
 
-```powershell
+## 📌 Portfolio Overview
+
+- **About**: Background, interests, and engineering focus.
+- **Toolbox**: Programming languages, web engineering, AI/ML libraries, databases, robotics, and developer tools.
+- **Projects**: Research spotlights, AI benchmarks, open-source tools, and web applications.
+- **Contact**: Quick-access tactile links to GitHub, LinkedIn, and direct email.
+
+---
+
+## 💻 Featured Work
+
+A selection of projects featured in this portfolio:
+
+- **RH-Dijkstra Webots** — Mobile robot motion-planning research using graph-based pathfinding in Webots simulation.
+- **SpaceSentinel AI** — Computer vision pipeline for satellite imagery analysis and feature detection.
+- **RepoGuide AI** — AI-assisted codebase exploration and automated documentation tool.
+- **KinoCheck Eval** — Systematic evaluation and benchmarking pipeline for multimodal AI systems.
+- **SmartPath Visualizer** — Interactive web-based visualization of pathfinding algorithms.
+- **Garbage Collection Tracker** — Full-stack tracker application for urban waste and collection management.
+
+---
+
+## 🛠️ Built With
+
+- **Frontend**: [React 19](https://react.dev/), [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool**: [Vite 8](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) with physical tactile keycap styling
+- **Icons**: [Lucide React](https://lucide.dev/) & authentic Brand SVGs
+- **Code Quality**: [Oxlint](https://oxc.rs/docs/guide/usage/linter.html) & TypeScript compiler checks
+- **Deployment Target**: [AWS Amplify Hosting](https://aws.amazon.com/amplify/hosting/)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- npm
+- Git
+
+### Installation
+
+```bash
+git clone https://github.com/Rerishabh/rishabh-portfolio.git
+cd rishabh-portfolio
 npm install
+```
+
+### Development Server
+
+Run the local Vite development server:
+
+```bash
 npm run dev
 ```
 
-Verification commands:
+### Production Build & Linting
 
-```powershell
+```bash
+# TypeScript typecheck & Vite production build
 npm run build
+
+# Run Oxlint
 npm run lint
+
+# Preview production build locally
+npm run preview
 ```
 
-## Documentation map
+---
 
-- [PRD.md](./PRD.md) — product requirements and public scope
-- [Architecture.md](./Architecture.md) — data boundaries and application structure
-- [Rules.md](./Rules.md) — content, privacy, and rendering rules
-- [Phases.md](./Phases.md) — implementation checkpoints
-- [Design.md](./Design.md) — visual direction and experience constraints
-- [Memory.md](./Memory.md) — durable project context
-- [decisions.md](./decisions.md) — recorded decisions and rationale
+## 📄 License & Credits
 
-## Current checkpoint
-
-This checkpoint creates documentation only. No UI components, layouts, CSS
-styles, or portfolio features are implemented yet. The primary creative feature
-remains **OPEN** pending approval.
+Designed & VibeCoded by **Rishabh Paira** © 2026.

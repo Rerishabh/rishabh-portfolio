@@ -21,7 +21,8 @@ export const PUBLIC_PROJECTS: PublicProject[] = [
     technologies: ['Computer Vision', 'Python', 'Image Processing'],
     contributions: [],
     repositoryUrl: 'https://github.com/Rerishabh/SpaceSentinel-AI',
-    liveUrl: null,
+    liveUrl: 'https://space-sentinel-ai.vercel.app/',
+    youtubeUrl: 'https://youtu.be/-6MFxb52YjM',
   },
   {
     id: 'repoguide-ai',
@@ -32,7 +33,8 @@ export const PUBLIC_PROJECTS: PublicProject[] = [
     technologies: ['TypeScript', 'React', 'LLM Tooling', 'FastAPI'],
     contributions: [],
     repositoryUrl: 'https://github.com/Rerishabh/repoguide-ai',
-    liveUrl: 'https://repoguide-ai.vercel.app',
+    liveUrl: 'https://repoguide-ai-murex.vercel.app/',
+    youtubeUrl: 'https://youtu.be/oarPtdxQsXw',
   },
   {
     id: 'kinocheck-eval',
@@ -44,6 +46,7 @@ export const PUBLIC_PROJECTS: PublicProject[] = [
     contributions: [],
     repositoryUrl: 'https://github.com/Rerishabh/KinoCheck-Eval',
     liveUrl: null,
+    youtubeUrl: 'https://youtu.be/kX4rVOpBWcE',
   },
   {
     id: 'hackerrank-orchestrate-september',
@@ -53,7 +56,7 @@ export const PUBLIC_PROJECTS: PublicProject[] = [
       'Algorithmic data recovery challenge focused on reconciling system state and verifying data integrity under strict constraints.',
     technologies: ['Algorithms', 'Problem Solving', 'Data Integrity'],
     contributions: [],
-    repositoryUrl: null,
+    repositoryUrl: 'https://github.com/Rerishabh/hackerrank-orchestrate-september-2026-buy-or-wait',
     liveUrl: null,
   },
   {
@@ -64,7 +67,7 @@ export const PUBLIC_PROJECTS: PublicProject[] = [
     technologies: [],
     contributions: [],
     repositoryUrl: 'https://github.com/Rerishabh/SmartPath-Visualizer',
-    liveUrl: null,
+    liveUrl: 'https://rerishabh.github.io/SmartPath-Visualizer/',
   },
   {
     id: 'garbage-collection-tracker',
@@ -73,7 +76,7 @@ export const PUBLIC_PROJECTS: PublicProject[] = [
     description: null,
     technologies: [],
     contributions: [],
-    repositoryUrl: null,
+    repositoryUrl: 'https://github.com/Rerishabh/garbage-collection-tracker',
     liveUrl: null,
   },
   {
@@ -83,7 +86,25 @@ export const PUBLIC_PROJECTS: PublicProject[] = [
     description: 'MERN project, not deployed.',
     technologies: ['MERN'],
     contributions: [],
-    repositoryUrl: null,
+    repositoryUrl: 'https://github.com/Rerishabh/City_Explorer',
+    liveUrl: null,
+  },
+  {
+    id: 'stadiumgenie-ai',
+    name: 'StadiumGenie-AI',
+    category: 'web-project',
+    description:
+      'AI-powered stadium event discovery, booking, ticketing, and management platform with a context-aware assistant.',
+    technologies: [
+      'React',
+      'Vite',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Google Gemini',
+    ],
+    contributions: [],
+    repositoryUrl: 'https://github.com/Rerishabh/StadiumGenie-AI',
     liveUrl: null,
   },
   {

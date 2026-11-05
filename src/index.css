@@ -110,3 +110,30 @@ body {
     offset-distance: 100%;
   }
 }
+
+/* GitHub and YouTube button icon hover scaling */
+.project-github-button .project-github-icon,
+.project-youtube-button .project-youtube-icon {
+  transition: transform 150ms ease-out;
+}
+
+.project-github-button:hover .project-github-icon,
+.project-github-button:focus-visible .project-github-icon,
+.project-youtube-button:hover .project-youtube-icon,
+.project-youtube-button:focus-visible .project-youtube-icon {
+  transform: scale(1.15);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-github-button .project-github-icon,
+  .project-youtube-button .project-youtube-icon {
+    transition: none;
+    transform: none;
+  }
+  .project-github-button:hover .project-github-icon,
+  .project-github-button:focus-visible .project-github-icon,
+  .project-youtube-button:hover .project-youtube-icon,
+  .project-youtube-button:focus-visible .project-youtube-icon {
+    transform: none;
+  }
+}

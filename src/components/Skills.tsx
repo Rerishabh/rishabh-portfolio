@@ -152,7 +152,7 @@ export function Skills() {
       ref={sectionRef}
       id="toolbox"
       aria-labelledby="skills-heading"
-      className="border-y-2 border-ink bg-surface"
+      className="border-y-2 border-ink bg-surface scroll-mt-20"
     >
       <div className="mx-auto max-w-6xl px-6 py-16 sm:px-8 lg:px-12">
         <div className="border-b-2 border-ink pb-6">

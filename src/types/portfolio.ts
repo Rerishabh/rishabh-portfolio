@@ -13,6 +13,7 @@ export interface PublicProject {
   contributions: string[]
   repositoryUrl: string | null
   liveUrl: string | null
+  youtubeUrl?: string | null
 }
 
 export interface InternalProjectRecord {

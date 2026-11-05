@@ -38,7 +38,7 @@ export function About() {
       ref={sectionRef}
       id="about"
       aria-labelledby="about-heading"
-      className="w-full bg-surface py-12 md:py-16"
+      className="w-full bg-surface py-12 md:py-16 scroll-mt-20"
     >
       <div className="mx-auto max-w-6xl px-6 sm:px-8 lg:px-12">
         {/* ── Full-width section heading ── */}

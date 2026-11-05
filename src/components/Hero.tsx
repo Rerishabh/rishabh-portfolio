@@ -73,6 +73,28 @@ export function Hero() {
                 </svg>
                 AWS Builder
               </a>
+              <a
+                href="/Rishabh_Paira_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ width: '126px' }}
+                className="group inline-flex items-center justify-center gap-2 rounded-sm border-2 border-ink bg-surface px-3.5 py-2 font-mono text-xs font-bold text-ink shadow-[3px_3px_0px_#141413] transition-[transform,box-shadow,background-color] duration-150 ease-out hover:-translate-x-0.5 hover:-translate-y-0.5 hover:bg-canvas hover:shadow-[4px_4px_0px_#141413] active:translate-x-0 active:translate-y-0 active:shadow-[1px_1px_0px_#141413] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface motion-reduce:transform-none motion-reduce:transition-none"
+                aria-label="View Resume (PDF opens in a new tab)"
+              >
+                <svg
+                  className="h-3.5 w-3.5 shrink-0 stroke-current stroke-2 fill-none transition-transform duration-150 ease-out group-hover:scale-110 motion-reduce:transform-none"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
+                  />
+                </svg>
+                <span>Resume</span>
+              </a>
             </div>
             <div className="mt-6 inline-flex items-center gap-2 border border-ink bg-surface px-3 py-1 font-mono text-xs font-medium text-ink shadow-[2px_2px_0px_#141413]">
               <span className="inline-block h-2 w-2 rounded-full bg-accent" aria-hidden="true" />
